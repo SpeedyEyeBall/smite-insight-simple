@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Smite Insight - Twitch</title>
+        <title>Smite Insight - Gods</title>
         <link rel="stylesheet" href="./styles/navbar.css" />
         <link rel="stylesheet" href="./styles/general.css" />
-        <link rel="stylesheet" href="./styles/twitch.css" />
+        <link rel="stylesheet" href="./styles/gods.css" />
         <link rel="icon" href="./images/icon.png" />
     </head>
     <body>
@@ -23,16 +23,16 @@
         </header>
 
         <main>
-            <div id="twitch-embed" class="twitch-player"></div>
-
-            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-            <script type="text/javascript">
-                new Twitch.Player("twitch-embed", {
-                    channel: "smitegame",
-                    width: "854",
-                    height: "480",
-                });
-            </script>
+            <div class="gods-container">
+                <h1>Gods</h1>
+                <div class="god-card-holder">
+                    <a class="god-card physical" href="./gods/achilles/godinfo.html">
+                        <img class="god-image" src="./gods/achilles/icon.png" alt="Achilles Image" />
+                        <div class="god-name">Achilles</div>
+                        <div class="god-class">Warrior</div>
+                    </a>
+                </div>
+            </div>
         </main>
     </body>
 </html>
