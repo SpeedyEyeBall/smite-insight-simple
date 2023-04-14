@@ -1,0 +1,66 @@
+.god-name {
+    font-size: 100px;
+    text-align: center;
+    color: rgb(255, 231, 20);
+}
+
+.god-title {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    
+}
+
+.page-header {
+    background-position: 50%;
+    background-size: cover;
+    height: 25vw;
+    
+}
+
+.lore {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    text-align: justify;
+    color: white;
+    
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ability-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20vw;
+}
+
+.ability-name {
+    font-size: 15px;
+}
+
+.ability-description {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+li {
+    font-size: 12px;
+}
+
+tr {
+    vertical-align: top;
+}
+
+td, th {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 5px 5px 5px;
+    background-color: rgba(16, 51, 104, 0.5);
+}

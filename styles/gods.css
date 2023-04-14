@@ -1,15 +1,16 @@
 .gods-container {
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 95vw;
     align-items: center;
     flex-direction: column;
+    margin: 0px 2.5vw 0px 2.5vw;
 }
 
 .god-card-holder {
     display: flex;
     width: 90vw;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .god-card {
@@ -20,12 +21,14 @@
     width: 100px;
     border-radius: 10px;
     text-align: center;
+    margin-right: 6px;
+    margin-bottom: 6px;
     
 }
 
 .god-card:hover {
     box-shadow: 0px 0px 20px rgba(116, 116, 116, 0.3);
-    border-bottom-width: 4px;
+    background-color: rgb(199, 199, 199);
     
 }
 
@@ -44,11 +47,20 @@
 }
 
 .physical {
-    border-bottom: 3px solid rgb(250, 89, 89);
+    border-bottom: 5px solid rgb(250, 89, 89);
     
+}
+
+.magical {
+    border-bottom: 5px solid rgb(0, 110, 255);
 }
 
 h1 {
     color: white;
     text-decoration: underline;
+    background-color: rgb(16, 51, 104);
+    border: 5px solid rgba(10, 10, 10, 0.2);
+    border-radius: 20px;
+    padding: 2px 15px 10px 15px;
+
 }
